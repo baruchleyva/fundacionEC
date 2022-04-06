@@ -1,11 +1,10 @@
-@extends('layouts.app')
+@extends('layouts.menu')
 
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">{{ __('Dashboard') }}</div>
 
                 <div class="card-body">
                     @if (session('status'))
@@ -13,8 +12,14 @@
                             {{ session('status') }}
                         </div>
                     @endif
+                    <div class="flex-center position-ref full-height" style="background-color: ; ">
+                        <div class="content">
+                            <div align="center">
+                                <img src="{{asset('img/libro.jpg')}}" align="center" height="50%" width="50%" class="responsive"/>
+                            </div>
+                        </div>
+                    </div>
 
-                    {{ __('You are logged in!') }}
                 </div>
             </div>
         </div>
