@@ -108,31 +108,31 @@
                     </li>
                         <div class="collapse" id="menuCyA4" aria-labelledby="headingOne" data-parent="#sidenavAccordion">
                              <nav class="sb-sidenav-menu-nested nav">
-                                <a class="nav-link" href="#"> General</a>
+                                <a class="nav-link" href="{{route('general')}}"> General</a>
                             </nav>
                             <nav class="sb-sidenav-menu-nested nav">
-                                <a class="nav-link" href="#">Cañada</a>
+                                <a class="nav-link" href="{{route('cañada')}}">Cañada</a>
                             </nav>
                             <nav class="sb-sidenav-menu-nested nav">
-                                <a class="nav-link" href="#">Costa</a>
+                                <a class="nav-link" href="{{route('costa')}}">Costa</a>
                             </nav>
                             <nav class="sb-sidenav-menu-nested nav">
-                                <a class="nav-link" href="#">Cuenca del Papaloapan</a>
+                                <a class="nav-link" href="{{route('cuenca_papaloapan')}}">Cuenca del Papaloapan</a>
                             </nav>
                             <nav class="sb-sidenav-menu-nested nav">
-                                <a class="nav-link" href="#">Istmo</a>
+                                <a class="nav-link" href="{{route('istmo')}}">Istmo</a>
                             </nav>
                             <nav class="sb-sidenav-menu-nested nav">
-                                <a class="nav-link" href="#">Valles Centrales</a>
+                                <a class="nav-link" href="{{route('valles_centrales')}}">Valles Centrales</a>
                             </nav>
                             <nav class="sb-sidenav-menu-nested nav">
-                                <a class="nav-link" href="#">Mixteca</a>
+                                <a class="nav-link" href="{{route('mixteca')}}">Mixteca</a>
                             </nav>
                             <nav class="sb-sidenav-menu-nested nav">
-                                <a class="nav-link" href="#">Sierra Sur</a>
+                                <a class="nav-link" href="{{route('sierra_sur')}}">Sierra Sur</a>
                             </nav>
                             <nav class="sb-sidenav-menu-nested nav">
-                                <a class="nav-link" href="#">Sierra Norte</a>
+                                <a class="nav-link" href="{{route('sierra_norte')}}">Sierra Norte</a>
                             </nav>
                         </div>
 
