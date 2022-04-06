@@ -14,9 +14,12 @@
             <h1 class="h2" align="center">
                 Oaxaca
             </h1>
+            <h1 class="h2" align="center">
+                Cuenca del Papaloapan
+            </h1>
             <br>
             <div align="center">
-                <img src="{{asset('img/oaxaca.png')}}" width="600px" height="300px" />
+                <img src="{{asset('img/c_p.png')}}" width="50%" height="50%" />
                 <br>
             </div>
 
