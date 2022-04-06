@@ -27,7 +27,7 @@
 
     <div class="wrapper">
         <!-- Sidebar  -->
-        <nav id="sidebar" style="background-color:#0059f7;">
+        <nav id="sidebar" style="background-color:#798d24;">
             <div id="dismiss" style="background-color:white;">
                 <i class="fas fa-angle-left"></i>
             </div>
@@ -48,7 +48,7 @@
 
                     <li>
                         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#menuCyA" aria-expanded="false" aria-controls="menuCyA" style="font-size:15px;">
-                            <div class="sb-nav-link-icon"><i class="far fa-file-alt"></i></div>
+                            <div class="sb-nav-link-icon"><i class="fas fa-venus"></i></div>
                             <B>Apoyo a las Mujeres</B>
                             <div class="sb-sidenav-collapse-arrow"></div>
                         </a>
@@ -56,44 +56,44 @@
                         <div class="collapse" id="menuCyA" aria-labelledby="headingOne" data-parent="#sidenavAccordion">
                              <nav class="sb-sidenav-menu-nested nav">
                                 <!--<a class="nav-link" href="{ {route('vehicles.index')}}"> Registro</a>-->
-                                <a class="nav-link" href="#"> Registro</a>
+                                <a class="nav-link" href="{{route('registroAM')}}"> Registro</a>
                             </nav>
                             <nav class="sb-sidenav-menu-nested nav">
-                                <a class="nav-link" href="#">Listado</a>
+                                <a class="nav-link" href="{{route('listadoAM')}}">Listado</a>
                             </nav>
                         </div>
 
 
                     <li>
                         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#menuCyA2" aria-expanded="false" aria-controls="menuCyA" style="font-size:15px;">
-                            <div class="sb-nav-link-icon"><i class="far fa-file-alt"></i></div>
+                            <div class="sb-nav-link-icon"><i class="fas fa-file-invoice-dollar"></i></div>
                             <B>Becas</B>
                             <div class="sb-sidenav-collapse-arrow"></div>
                         </a>
                     </li>
                         <div class="collapse" id="menuCyA2" aria-labelledby="headingOne" data-parent="#sidenavAccordion">
                              <nav class="sb-sidenav-menu-nested nav">
-                                <a class="nav-link" href="#"> Registro</a>
+                                <a class="nav-link" href="{{route('registroBecas')}}"> Registro</a>
                             </nav>
                             <nav class="sb-sidenav-menu-nested nav">
-                                <a class="nav-link" href="#">Listado</a>
+                                <a class="nav-link" href="{{route('listadoBecas')}}">Listado</a>
                             </nav>
                         </div>
 
 
                     <li>
                         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#menuCyA3" aria-expanded="false" aria-controls="menuCyA" style="font-size:15px;">
-                            <div class="sb-nav-link-icon"><i class="far fa-file-alt"></i></div>
+                            <div class="sb-nav-link-icon"><i class='fas fa-handshake'></i></div>
                             <B>Programas sociales</B>
                             <div class="sb-sidenav-collapse-arrow"></div>
                         </a>
                     </li>
                         <div class="collapse" id="menuCyA3" aria-labelledby="headingOne" data-parent="#sidenavAccordion">
                              <nav class="sb-sidenav-menu-nested nav">
-                                <a class="nav-link" href="#"> Registro</a>
+                                <a class="nav-link" href="{{route('registroPS')}}"> Registro</a>
                             </nav>
                             <nav class="sb-sidenav-menu-nested nav">
-                                <a class="nav-link" href="#">Listado</a>
+                                <a class="nav-link" href="{{route('listadoPS')}}">Listado</a>
                             </nav>
                         </div>
 
@@ -101,7 +101,7 @@
 
                     <li>
                         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#menuCyA4" aria-expanded="false" aria-controls="menuCyA" style="font-size:15px;">
-                            <div class="sb-nav-link-icon"><i class="far fa-file-alt"></i></div>
+                            <div class="sb-nav-link-icon"><i class="fas fa-map-marked-alt"></i></div>
                             <B>Panorama estatal</B>
                             <div class="sb-sidenav-collapse-arrow"></div>
                         </a>
