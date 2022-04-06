@@ -165,7 +165,7 @@
                         <span>Menú</span>
                     </button> 
                     &nbsp;&nbsp;&nbsp;<label style="color: white; font-size: 14px" align="left">
-                  Fundación Eufrosina Cruz
+                  Fundación EC
               </label>
                     <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <i class="fas fa-align-justify"></i>
