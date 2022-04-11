@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <link rel="shortcut icon" type="image/png" href="{{asset('img/transred-ico.png')}}"/>
+    <link rel="shortcut icon" type="image/png" href="{{asset('img/libro.jpg')}}"/>
     <title>FUNDACIONEC</title>
 
     <!-- Bootstrap CSS CDN -->
@@ -15,6 +15,9 @@
     <link rel="stylesheet" href="{{ asset('css/style3.css') }}">
     <!-- Scrollbar Custom CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap4.min.css" />
+    <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.2.9/css/responsive.bootstrap4.min.css" />
 
     <!-- Font Awesome JS -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
@@ -97,8 +100,6 @@
                             </nav>
                         </div>
 
-
-
                     <li>
                         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#menuCyA4" aria-expanded="false" aria-controls="menuCyA" style="font-size:15px;">
                             <div class="sb-nav-link-icon"><i class="fas fa-map-marked-alt"></i></div>
@@ -139,7 +140,12 @@
 
 
 
-
+                <li>
+                    <a href="{{route('libros_panel')}}" style="font-size:15px;">
+                    <i class='fas fa-book-open'></i>
+                    <b>Libros INJEO</b>
+                    </a>
+                </li>
                 <li>
                     <a href="{{ route('logout') }}"
                                        onclick="event.preventDefault();

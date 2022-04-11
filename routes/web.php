@@ -37,5 +37,6 @@ Route::get('listadoBecas', function () {return view('becas/listado');})->name('l
 Route::get('registroBecas', function () {return view('becas/registro');})->name('registroBecas');
 Route::get('listadoPS', function () {return view('programasSoc/listado');})->name('listadoPS');
 Route::get('registroPS', function () {return view('programasSoc/registro');})->name('registroPS');
+Route::get('libros_panel', function () {return view('LibrosINJEO/libros_index');})->name('libros_panel');
 
 
