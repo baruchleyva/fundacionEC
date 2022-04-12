@@ -63,15 +63,15 @@
 
       var data = google.visualization.arrayToDataTable([
         ['Avance:','Afiliados'],
-          ['Cañada',0],
+          ['Cañada',1],
           ['Costa', 0],
           ['Istmo', 0],
-          ['Mixteca',0],
-          ['Papaloapan',0],
-          ['Sierra Sur',0],
+          ['Mixteca',2],
+          ['Papaloapan',1],
+          ['Sierra Sur',2],
           ['Sierra Norte',0],
-          ['Valles Centrales',0],
-          ['Meta',500000]
+          ['Valles Centrales',8],
+          ['Meta (500,000)',0]
 
 
        ]);
